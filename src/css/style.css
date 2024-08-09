@@ -1,0 +1,40 @@
+body{
+    background-image: url(/src/img/astro.jpeg);
+    background-size: 100%;
+}
+
+#bordes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+   
+}
+
+
+
+
+.classs{
+
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border-width: 3px;
+    border-color: rgb(202, 202, 198);
+    background-color: black;
+    box-shadow: 0 0 10px #FFE3FD, 0 0 10px #FFE3, 0 0 30px #FFE3FD  ;
+
+}
+.texto{
+    color: blanchedalmond;
+}
+ .mover{
+    margin-left: 450px;
+ }
